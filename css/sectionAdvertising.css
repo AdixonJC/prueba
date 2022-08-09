@@ -1,0 +1,23 @@
+
+.advertising {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #dbdbdb;
+    height: 200px;
+    border-bottom: 10px solid #0071b1;
+}
+
+.icon-education {
+    font-size: 5em;
+    color: #0071b1;
+}
+
+.advertising div span {
+    padding: 30px;
+    margin: 0 30px;
+}
+
+.advertising h3 {
+    color: #0071b1;
+}

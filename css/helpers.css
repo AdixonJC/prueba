@@ -1,0 +1,45 @@
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center {
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* borrar antes de enviar prueba */
+
+.border {
+    border: solid 2px red;
+}
+
+.maxWidth {
+    width: 100%;
+}
+
+.blueBackground {
+    background-color: #0071b1;
+}
+
+.blueLightBackground {
+    background-color:#0071b1 ;
+    opacity: .5;
+}
+
+strong {
+    color:#e65a24 ;
+}
+
+.padding {
+    padding: 25px;
+}
+
+p {
+    color: #e65a24;
+}
+
+.redLorem {
+    color: #e21c24 !important;
+}

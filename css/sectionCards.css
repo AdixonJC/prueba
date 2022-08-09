@@ -1,0 +1,19 @@
+.div__cards {
+    display: flex;
+    margin: 2em 1em;
+}
+
+.div__cards article {
+    outline: solid 1px #c1c1c1;
+    padding: 10px;
+    margin: 0 .3em;
+}
+
+.div__cards p {
+    color: #000;
+}
+
+.div__cards h5 {
+    color: #0071b1;
+    font-size: 1.2em;
+}

@@ -1,0 +1,169 @@
+.main__container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap ;
+}
+
+.div__form {
+    width: 27%;
+}
+
+form {
+    width: 90%;
+}
+
+.div__form , form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #0071b1;
+    padding: 10px;
+}
+
+form input {
+    margin-top: 6px;
+    height: 30px;
+    width: 100% ;
+    outline: none;
+}
+
+.button {
+    padding: 20px;
+}
+
+.button input {
+    min-width: 190px;
+    outline: none;
+    border: none;
+    background-color: #e65a24 ;
+    color: #ffffff;
+    font-weight: bold;
+    min-height: 40px;
+    box-shadow: 2px 2px 5px 0px #ffffff;
+}
+
+.button input:active {
+  box-shadow: 0px 0px 0px 0px #ffffff;
+  transform: translate(2px);
+}
+
+.div__form h3 {
+  position: relative;
+  margin: 11px;
+  padding: 4px;
+  color: #ffffff; 
+}
+
+.div__form strong {
+    font-weight: 300;
+}
+
+.div__form h3::before {
+  content: "";
+  background-color: #29a0d7;
+  height: 3px;
+  width: 100%;
+  bottom: 0;
+  position: absolute;
+}
+
+.div__form h3::after {
+  content: "";
+  background-color: #29a0d7;
+  height: 20px;
+  width: 20%;
+  bottom: -60%;
+  left: 42%;
+  position: absolute;
+  clip-path: polygon(50% 57%, 0 0, 100% 0);
+}
+
+.div__main-container {
+    display: flex;
+    flex-direction: column;
+    width: 73%;
+}
+
+.div__get-trained {
+    height: 320px;
+    background-color: rgba(102, 102, 102, .07);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 1.6em;
+}
+
+h1 {
+    margin: -50px 0;
+}
+
+.div__get-trained h2 {
+    font-size: 2em;
+    font-weight: 300;
+    color: #0071b1;
+    position: relative;
+    min-width: 100%;
+}
+
+.div__get-trained p {
+   margin-top: -40px;
+   text-align: end;
+}
+
+.div__get-trained h2::before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: #0071b1;
+    bottom: 0;
+}
+
+.div__get-trained h1 {
+    font-weight: 300;
+    color: #0071b1;
+}
+
+
+.div__links {
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(0, 113, 177, .5);
+}
+
+.div__links span {
+    color: #e65a24;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30%;
+}
+
+.div__links a {
+   padding: 0 15px;
+   font-size: 1.2em;
+   font-weight: 600;
+   color: #ffffff;
+}
+
+.linkBack {
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color:#e65a24;
+}
+
+.icon-education {
+    font-size: 1.2em;
+}
+
+/* con este margen al body queda con las dimensiones exactas del archivo ilustrator */
+/* body {
+    margin: 8%;
+} */

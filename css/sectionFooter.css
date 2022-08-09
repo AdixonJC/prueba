@@ -1,0 +1,44 @@
+.address-contain {
+    display: flex;
+    font-weight: 800;
+}
+
+.address-contain h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0071b1;
+    margin: 0;
+    width: 35%;
+    color: #ffffff;
+}
+
+.address-contain h4 {
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 24px;
+    background-color: #dbdbdb;
+    margin: 0;
+    width: 65%;
+    color: #0071b1;
+
+}
+
+.address-contain h3 ,.address-contain h4 {
+    font-size: 1.2em;
+    height: 90px;
+    font-weight: 900;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#4d4d4d;
+    width: 100%;
+    height: 30px;
+}
+
+footer p {
+    color: #ffffff;
+}
